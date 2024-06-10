@@ -1,0 +1,7 @@
+{{define "body"}}
+  {{template "header" .Header}}
+  <form action="/api/todo" method="post">
+    <input type="text" name="item"></input>
+    <input type="submit" value="Add"></input>
+  </form>
+{{end}}

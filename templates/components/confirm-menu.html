@@ -1,0 +1,10 @@
+{{define "confirm-menu"}}
+<div class="confirm-menu">
+  {{template  .Title}}
+  <div class="flex-row">
+    {{range .Options}}
+      <button>{{.Text}}</button>
+    {{end}}
+  </div>
+</div>
+{{end}}
